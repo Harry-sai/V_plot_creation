@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import numpy as np 
 
 #reading the file 
-lr= pd.read_csv('/root/Project/V_plot/PLOT_file.tsv', sep='\t', header='infer')
+lr= pd.read_csv('PLOT_file.tsv', sep='\t', header='infer')
 
 #Assigning colour to the plot  
 colour="Blues"
